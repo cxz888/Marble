@@ -1,0 +1,71 @@
+body {
+    background-color: var(--el-bg-color);
+    margin: 0;
+}
+
+span.separator {
+    vertical-align: middle;
+    display: inline-block;
+    margin: 0px 4px;
+    border-left: 2px dashed var(--el-text-color-placeholder);
+}
+
+.md-editor {
+    --md-bk-color: var(--el-bg-color);
+    --md-color: var(--text-color);
+}
+
+.md-editor-dark {
+    --md-bk-color: var(--el-bg-color);
+    --md-color: var(--text-color);
+}
+
+/* .page {
+    position: relative;
+    width: 60%;
+    align-content: center;
+} */
+/* .container {
+    width: 100%;
+    padding-top: 3.5rem;
+    display: flex;
+    justify-content: center;
+} */
+
+#app {
+    width: 100%;
+    margin: 0 0;
+}
+div {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+        "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+i {
+    margin-left: 2px !important;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+body div a,
+body div a:visited {
+    color: var(--el-color-primary);
+    text-decoration: underline;
+    text-decoration-color: currentColor;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: var(--h-color) !important;
+}
+
+table tr {
+    background-color: transparent !important;
+}
